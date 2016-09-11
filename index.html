@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title | Home</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body id="body" onload="setup()" class="greenBg">
+       
+    <!--    <button id="debug" onclick="tempDebug()">Magical Debugging Button</button> -->
+        
+        
+        <div id="menu-bar"> 
+            <div class="menu-item selected">
+                <div id="home">
+                    <p>Home</p>
+                </div> <!-- #home -->
+            </div> <!-- Home -->
+             <a href="gallery.html" class="menu-item">
+                 <div id="gallery">
+                    <p>Gallery</p> 
+                </div><!--#Gallery -->
+            </a>
+              <a href="pricing.html" class="menu-item">
+                <div id="about">
+                    <p>Pricing</p>
+                </div><!-- #about -->
+            </a>
+            <a href="booking.html"class="menu-item">
+                <div id="contact">
+                    <p>Booking</p><!-- #contact-->
+                </div>
+            </a>
+        </div><!-- #menu-bar-->
+
+        
+        <h1>Title</h1>
+        
+        <img src="images/placeholder.jpg" class="center med">
+        
+        <div class="centerContent">
+            <p class="center" id="homeParagraph">    
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus quam et eros mollis tempus. Ut sagittis condimentum cursus. Aenean vestibulum, ante et condimentum suscipit, erat felis viverra est, ac maximus sem leo non est. Aenean porta erat ut bibendum viverra. Vivamus non mauris placerat, tristique turpis non, facilisis lectus. Vivamus rhoncus justo sit amet nunc efficitur feugiat. Etiam consectetur dolor arcu, sed vulputate ante scelerisque sed. Mauris eros augue, interdum vitae commodo a, blandit non dolor. Nulla cursus accumsan leo eu rhoncus. Sed sed nisi lectus. Vivamus sit amet tellus non ipsum euismod imperdiet.
+            </p>
+        </div>    
+         <script>
+        function tempDebug(){
+            alert("Nothing to debug right now");
+        }
+        function setup(){
+           
+            };
+            
+        }
+        
+        function windowSize(){
+            window = document.getElementsById("body");
+            width = window.innerWidth;
+            height = window.innerHeight;
+            alert("Width:" + width + "\n Height" + height);
+        }
+        </script>
+    </body>
+</html>
