@@ -1,0 +1,43 @@
+
+
+#landscapeCont {
+    position: fixed;
+    width: 55%;
+    height: 55%;
+    background-image: url(../images/placeholder.jpg);
+    background-position: 100% 5%;
+}
+
+
+.label {
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.5s;
+}
+
+.label:hover {
+    background-color: rgba(255,255,255,0.5);
+    transition: background-color 0.5s;
+}
+
+#portraitCont {
+    position:fixed;
+    left:55%;
+    height:100%;
+    width:45%;
+    background-image: url(../images/placeholder.jpg);
+    background-position: 0% 50%;
+}
+
+
+
+
+#archCont {
+    position: fixed;
+    width:55%;
+    top: 55%;
+    height:45%;
+    background-image: url(../images/placeholder.jpg);
+    background-position: 100% 5%;
+}
+

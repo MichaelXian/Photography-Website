@@ -1,0 +1,171 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* reset done */
+
+
+
+body{
+    margin:1;
+}
+
+h1{
+    text-align: center;
+    font-size: 500%;
+}
+
+
+
+.menu-item {
+    
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 200%;
+    height:100%;
+    width : 25%;
+    margin:0 -2px;
+    padding: 1% 0%;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30%;
+    background-color: #ffcc66;
+    transition: background-color 0.25s linear;
+}
+
+.menu-item:hover{
+    background-color: #ffaa00;
+    transition: background-color 0.25s linear;
+}
+#menu-bar{
+    overflow: visible;
+    background: antiquewhite;
+    width:100%;
+    height: 5%;
+
+}
+
+.menu-item.selected{
+    background: #b35900;
+}
+.no-break{
+    display: inline;
+}
+
+#debug{
+    position: fixed;
+    left:0%;
+    bottom: 0%;
+}
+
+.greenBg {
+    background: #e6ffe6;
+}
+
+
+.centerText {
+    text-align: center;   
+}
+
+.centerContent {
+    margin-left:auto;
+    margin-right:auto;
+}
+p.center {
+    text-align: center;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+img.med {
+    width:30%;
+}
+
+img.sml {
+    width:15%;
+}
+
+img.lrg {
+    width:50%;
+}
+
+img.all {
+    width:100%;
+}
+
+#homeParagraph {
+    width: 80%;
+    margin-left: 10%
+}
+
+li a{
+    display: block;
+}
+#gallery ul{
+    position:fixed;
+    top:100px;
+    display:none;
+}
+
+#gallery:hover div{
+    
+}

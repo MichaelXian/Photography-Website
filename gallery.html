@@ -2,25 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Title | Home</title>
+        <title>Title | Gallery</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href='css/gallery.css'>
     </head>
     
     <body id="body" onload="setup()" class="greenBg">
        
-    <!--    <button id="debug" onclick="tempDebug()">Magical Debugging Button</button> -->
-        
+       <!--    <button id="debug" onclick="tempDebug()">Magical Debugging Button</button> -->
         
         <div id="menu-bar"> 
-            <div class="menu-item selected">
+            <a href="index.html" class="menu-item">
                 <div id="home">
                     <p>Home</p>
                 </div> <!-- #home -->
-            </div> <!-- Home -->
-             <a href="gallery.html" class="menu-item">
+            </a>
+             <a href="gallery.html" class="menu-item selected">
                  <div id="gallery">
-                    <p>Gallery</p> 
+                    <p>Gallery</p>
                 </div><!--#Gallery -->
             </a>
               <a href="pricing.html" class="menu-item">
@@ -34,24 +34,44 @@
                 </div>
             </a>
         </div><!-- #menu-bar-->
-
         
-        <h1>Title</h1>
+        <div id='landscapeCont'>
+            <h1 id='landscape' class='label'>
+                <br>
+                <br>
+                <br>
+                Landscape
+            </h1>
+        </div>
         
-        <img src="images/placeholder.jpg" class="center med">
+        <div id='portraitCont'>
+            <h1 id='portrait' class='label'>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Portrait
+            </h1>
+        </div>
         
-        <div class="centerContent">
-            <p class="center" id="homeParagraph">    
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam faucibus quam et eros mollis tempus. Ut sagittis condimentum cursus. Aenean vestibulum, ante et condimentum suscipit, erat felis viverra est, ac maximus sem leo non est. Aenean porta erat ut bibendum viverra. Vivamus non mauris placerat, tristique turpis non, facilisis lectus. Vivamus rhoncus justo sit amet nunc efficitur feugiat. Etiam consectetur dolor arcu, sed vulputate ante scelerisque sed. Mauris eros augue, interdum vitae commodo a, blandit non dolor. Nulla cursus accumsan leo eu rhoncus. Sed sed nisi lectus. Vivamus sit amet tellus non ipsum euismod imperdiet.
-            </p>
-        </div>    
+        <div id='archCont'>
+            <h1 id='arch' class='label'>
+                <br>
+                <br>
+                <br>
+                Archetectural
+            </h1>
+        </div>
+        
+        
          <script>
         function tempDebug(){
-            alert("Nothing to debug right now");
+           alert("Nothing to debug right now");
         }
         function setup(){
-           
-            };
+        
             
         }
         
